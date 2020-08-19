@@ -1,0 +1,55 @@
+@import "./../../scss/variables";
+
+.tabs-div{
+  margin-top: var(--deafultMargin);
+  box-sizing: border-box;
+}
+.ant-tabs-top > .ant-tabs-nav{
+  margin: 20px 0 0;
+}
+.ant-tabs-top > .ant-tabs-nav::before
+{
+  border-bottom: none;
+}
+.ant-tabs-tab{
+  font-family: Circular-Std-Book;
+  border-radius: 15px 15px 0 0;
+  background: #21262b;
+  color: white;
+  margin: 0;
+  padding: 12px 20px;
+}
+.ant-tabs-tab-active{
+  background: var(--calendar-background);
+  border-bottom: none !important;
+  .ant-tabs-tab-btn{
+    color: white !important;
+  }
+}
+.ant-tabs-ink-bar{
+  height: 1px !important;
+  background: rgba(255, 255, 255, 0.15);
+}
+.table-search{
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  padding: 15px;
+  background: #2c3338;
+
+  .ant-input-affix-wrapper {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 0;
+    border: none;
+  }
+  .ant-input-prefix{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 0 5px;
+    margin: 0;
+  }
+  input.ant-input{
+    color: white !important;
+    background: rgba(255, 255, 255, 0.05);
+  }
+}

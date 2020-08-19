@@ -1,0 +1,15 @@
+@import "./../../scss/variables";
+
+.trackGraph{
+  background-color: #23292E;
+  padding: var(--defaultPadding);
+  font-family: 'Circular-Std-Book';
+  box-sizing: border-box;
+}
+.ant-checkbox-wrapper{
+  margin-left: 0 !important;
+
+}
+.pt-10{
+  padding-top: 10px;
+}

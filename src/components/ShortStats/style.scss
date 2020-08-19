@@ -1,0 +1,9 @@
+@import "./../../scss/variables";
+
+.shortStat{
+  background-color: var(--calendar-background);
+  padding: var(--defaultPadding);
+  font-family: Circular-Std-Book;
+  color: white;
+  box-sizing: border-box;
+}

@@ -1,0 +1,34 @@
+@import "./../../scss/variables";
+
+.topPage{
+  background-color: var(--calendar-background);
+  font-family: "Circular-Std-Book";
+  margin-top: var(--defaultMargin);
+  margin-right: var(--defaultMargin);
+  padding-top: var(--defaultPadding);
+  box-sizing: border-box;
+}
+.top-pages-table{
+  margin-top: 5px;
+  padding-bottom: var(--defaultPadding);
+  .ant-table{
+    background-color: transparent;
+    color: white;
+  }
+  .ant-table-thead > tr > th{
+    background-color: transparent;
+    color: white;
+    border-bottom: none;
+  }
+  .ant-table-tbody > tr > td{
+    border-bottom: none;
+    padding: 14px 14px;
+  }
+  .ant-table-tbody > tr:hover > td {
+    background-color: transparent ;
+    //color: black !important;
+  }
+  .ant-table-tbody > tr:nth-child(odd){
+    background: rgba(255, 255, 255, 0.08);
+  }
+}

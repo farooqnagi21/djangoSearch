@@ -1,0 +1,16 @@
+@import '~css-vars';
+//$css-vars-use-native: true;
+
+$main-background : #16191C;
+$menu-background: #020202;
+$calendar-background: #2C3338;
+$defaultMargin: 20px;
+$defaultPadding: 20px;
+
+@include css-vars((
+        --main-background: $main-background ,
+        --menu-background: $menu-background,
+        --calendar-background: $calendar-background,
+        --defaultMargin: $defaultMargin,
+        --defaultPadding: $defaultPadding,
+));

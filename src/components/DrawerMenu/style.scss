@@ -1,0 +1,39 @@
+@import "../../scss/variables";
+
+.menu{
+  background-color: var(--menu-background);
+  //width: 275px;
+  color: white;
+  border-right: none;
+  font-family: "Circular-Std-Book";
+  box-sizing: border-box;
+}
+.menuItem-icon{
+  padding-left: 10px;
+}
+.logo{
+  box-sizing: border-box;
+  padding: 25px 24px 15px;
+}
+.ant-menu-item-group-title{
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 12px;
+  font-weight: bold;
+  padding: 8px 24px;
+}
+.ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::before{
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255,1));
+}
+.ant-menu-submenu-inline > .ant-menu-submenu-title .ant-menu-submenu-arrow::after{
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255,1));
+}
+.ant-menu-item-selected{
+  background-color: transparent !important;
+}
+.white{
+  color: white;
+}
+.signUp-btn{
+  margin: 28px;
+  width: 200px;
+}

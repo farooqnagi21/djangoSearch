@@ -1,0 +1,19 @@
+@import "./../../scss/variables";
+
+.scheduleCall{
+  background: linear-gradient(132.39deg, #4880FF 0%, #6248FF 100%);
+  padding: var(--defaultPadding);
+  font-family: Circular-Std-Book;
+  color: white;
+  margin-top: var(--defaultMargin);
+  margin-right: var(--defaultMargin);
+  box-sizing: border-box;
+}
+.scheduleBtn{
+  background-color: transparent;
+  border: 1px solid white;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}

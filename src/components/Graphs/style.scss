@@ -1,0 +1,30 @@
+@import "./../../scss/variables";
+
+
+.graphs{
+  margin-top: var(--defaultMargin);
+  display: flex;
+  box-sizing: border-box;
+  //height: 100%;
+  //width: 100%;
+}
+.barGraph{
+  width: 100%;
+  height: 100%;
+}
+.graph{
+  background-color: var(--calendar-background);
+  padding: var(--defaultPadding);
+  font-family: Circular-Std-Book;
+  color: white;
+  //width: 100%;
+  //height: 100%;
+
+  .recharts-cartesian-axis-ticks{
+    font-size: 10px;
+  }
+  .recharts-wrapper .recharts-cartesian-grid-vertical line:first-child,
+  .recharts-wrapper .recharts-cartesian-grid-vertical line:last-child {
+    stroke-opacity: 0;
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/django-search.iml" filepath="$PROJECT_DIR$/.idea/django-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../LinkedMatrix/TCUBE-Project/tcube-frontend/tcube-frontend/.idea/tcube-frontend.iml" filepath="$PROJECT_DIR$/../LinkedMatrix/TCUBE-Project/tcube-frontend/tcube-frontend/.idea/tcube-frontend.iml" />
+    </modules>
+  </component>
+</project>
